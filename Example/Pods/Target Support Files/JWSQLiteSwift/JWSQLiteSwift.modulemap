@@ -1,0 +1,6 @@
+framework module JWSQLiteSwift {
+  umbrella header "JWSQLiteSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

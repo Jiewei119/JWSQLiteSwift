@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JWSQLiteSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JWSQLiteSwift.'
+  s.summary          = '一个使用Swift语言实现的轻量级SQLite数据库访问库封装，基于FMDB。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+一个使用Swift语言实现的轻量级SQLite数据库访问库封装，基于FMDB。支持两种使用方式：1、通过使用词典\数组访问数据库；2、通过自定义实体访问数据库。
                        DESC
 
   s.homepage         = 'https://github.com/jiewei119/JWSQLiteSwift'
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.dependency 'FMDB', '~> 2.7.2'
 end

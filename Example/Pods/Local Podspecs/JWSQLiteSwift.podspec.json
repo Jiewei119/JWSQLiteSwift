@@ -1,0 +1,22 @@
+{
+  "name": "JWSQLiteSwift",
+  "version": "0.1.0",
+  "summary": "A short description of JWSQLiteSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jiewei119/JWSQLiteSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiewei119": "810337170@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jiewei119/JWSQLiteSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWSQLiteSwift/Classes/**/*"
+}

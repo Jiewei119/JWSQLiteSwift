@@ -29,11 +29,11 @@
 
 /* Begin PBXFileReference section */
 		089FED9A6716CFFFBF9F1030 /* Pods-JWSQLiteSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWSQLiteSwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWSQLiteSwift_Tests/Pods-JWSQLiteSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0B09D0991C1C77861CBB8985 /* JWSQLiteSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JWSQLiteSwift.podspec; path = ../JWSQLiteSwift.podspec; sourceTree = "<group>"; };
-		1BC0DB1C46F43C349D2B4DC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0B09D0991C1C77861CBB8985 /* JWSQLiteSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWSQLiteSwift.podspec; path = ../JWSQLiteSwift.podspec; sourceTree = "<group>"; };
+		1BC0DB1C46F43C349D2B4DC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2556CB853F8C3CA581262825 /* Pods_JWSQLiteSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWSQLiteSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E8B8021EF10812A1FC95EE4 /* Pods_JWSQLiteSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWSQLiteSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DB5767834A5603AF55E5976 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5DB5767834A5603AF55E5976 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JWSQLiteSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWSQLiteSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -215,6 +215,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 4NX3YUDPS4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -517,7 +518,9 @@
 			baseConfigurationReference = A688B62FF8EA90EDB873E993 /* Pods-JWSQLiteSwift_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NX3YUDPS4;
 				INFOPLIST_FILE = JWSQLiteSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,7 +535,9 @@
 			baseConfigurationReference = CE91C566971C0BC79AF4AAEE /* Pods-JWSQLiteSwift_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4NX3YUDPS4;
 				INFOPLIST_FILE = JWSQLiteSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
