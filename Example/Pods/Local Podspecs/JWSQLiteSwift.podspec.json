@@ -1,8 +1,8 @@
 {
   "name": "JWSQLiteSwift",
   "version": "0.1.0",
-  "summary": "A short description of JWSQLiteSwift.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "一个使用Swift语言实现的轻量级SQLite数据库访问库封装，基于FMDB。",
+  "description": "一个使用Swift语言实现的轻量级SQLite数据库访问库封装，基于FMDB。支持两种使用方式：1、通过使用词典数组访问数据库；2、通过自定义实体访问数据库。",
   "homepage": "https://github.com/jiewei119/JWSQLiteSwift",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JWSQLiteSwift/Classes/**/*"
+  "source_files": "JWSQLiteSwift/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+      "~> 2.7.2"
+    ]
+  }
 }

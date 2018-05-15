@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'JWSQLiteSwift_Example' do
   pod 'JWSQLiteSwift', :path => '../'
-
-#target 'JWSQLiteSwift_Tests' do
-#    inherit! :search_paths
-
-    
-    #  end
 end
