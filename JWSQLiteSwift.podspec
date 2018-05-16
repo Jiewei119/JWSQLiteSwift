@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JWSQLiteSwift'
-  s.version          = '0.1.2'
+  s.version          = '0.1.1'
   s.summary          = '一个使用Swift语言实现的轻量级SQLite数据库访问库封装，基于FMDB。'
 
 # This description is used to generate tags and improve search results.
