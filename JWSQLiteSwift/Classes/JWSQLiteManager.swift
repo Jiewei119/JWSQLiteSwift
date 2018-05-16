@@ -6,11 +6,11 @@
 //  Copyright © 2018年 XMQ. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import FMDB
 
 /// SQLite数据库管理器
-public class JWSQLiteManager: NSObject {
+open class JWSQLiteManager: NSObject {
     public static let shared = JWSQLiteManager() //SQLite数据库管理器类单例
     
     /// 打开默认数据库，不存在会自动创建，存放于NSDocumentDirectory目录下

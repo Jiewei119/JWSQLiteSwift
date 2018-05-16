@@ -6,17 +6,17 @@
 //  Copyright © 2018年 XMQ. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import FMDB
 
 /// 默认数据库名称
-let JWSQLiteDatabase_DefaultDatabaseName = "JWSQLite.sqlite"
+public let JWSQLiteDatabase_DefaultDatabaseName = "JWSQLite.sqlite"
 
 /// 默认数据库保存路径
-let JWSQLiteDatabase_DefaultDatabaseSavePath = NSHomeDirectory() + "/Documents/"
+public let JWSQLiteDatabase_DefaultDatabaseSavePath = NSHomeDirectory() + "/Documents/"
 
 /// 默认数据库存储全路径
-let JWSQLiteDatabase_DefaultDatabaseFullPath = JWSQLiteDatabase_DefaultDatabaseSavePath + JWSQLiteDatabase_DefaultDatabaseName
+public let JWSQLiteDatabase_DefaultDatabaseFullPath = JWSQLiteDatabase_DefaultDatabaseSavePath + JWSQLiteDatabase_DefaultDatabaseName
 
 /// 实体协议
 public protocol JWSQLiteModelProtocol {
@@ -26,7 +26,7 @@ public protocol JWSQLiteModelProtocol {
 
 
 /// SQLite数据库类，一个实例对应一个具体的数据库
-public class JWSQLiteDatabase: NSObject {
+open class JWSQLiteDatabase: NSObject {
     /// FMDB数据库操作对象
     internal(set) var db:FMDatabase? = nil
     
